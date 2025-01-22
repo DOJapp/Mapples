@@ -7,7 +7,7 @@ const clientSecret = 'lrFxI-iSEg868ZwMXfyCQwYcdwEfEQVYWsuGBfLgNynr5zJR3BhoW5VrH-
 const tokenUrl = 'https://outpost.mappls.com/api/security/oauth/token';
 const geocodeUrl = 'https://atlas.mappls.com/api/places/geocode';
 
-// ✅ Step 1: Generate Access Token
+// ✅ Step 1: Generate Access Token  
 const getAccessToken = async () => {
     try {
         const requestBody = new URLSearchParams();
